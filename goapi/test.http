@@ -1,0 +1,8 @@
+POST http://locahost:8080/category HTTP/1.1
+HOST: localhost:8080
+Content-Type: application/json
+
+{
+  "name": "Category 1",
+  "description": "Category 1 description"
+}
